@@ -1,0 +1,65 @@
+.container {
+  position: relative;
+  text-align: center;
+}
+.history {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: rgb(184, 178, 255);
+}
+
+.link{
+    position: absolute;
+    left: 540px;
+    top: 280px;
+}
+.btn-left {
+  position: absolute;
+  width: 70px;
+  left: 500px;
+  top: 180px;
+}
+.btn-stop {
+  position: absolute;
+  left: 600px;
+  top: 180px;
+  width: 70px;
+}
+.btn-right {
+  position: absolute;
+  left: 700px;
+  top: 180px;
+  width: 70px;
+}
+
+.btn-forward {
+  position: absolute;
+  left: 600px;
+  top: 130px;
+  width: 70px;
+}
+
+.btn-backward {
+  position: absolute;
+  left: 600px;
+  top: 230px;
+  width: 70px;
+}
+img {
+  height: 70px;
+  width: 120px;
+  margin-left: 570px;
+}
